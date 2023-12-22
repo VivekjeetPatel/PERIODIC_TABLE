@@ -125,23 +125,7 @@ public class DATA_3 {
 
     };
 
-    public static String Electronic_Configuration(int Z){
-        System.out.println(ELEMENTS[Z][8]);
-        String ec = ELEMENTS[Z][8];
-        return ec;
+    
 
-    }
-    public static String[] All(int z){
-        String[] a = ELEMENTS[z];
-        String [] h = ELEMENTS[0];
-        for(int i = 0;i<h.length;i++){
-            System.out.println(h[i] + " : "+a);
-        }
-        return a;
-    }
-    public static void main(String[] args) {
-        DATA_3.Electronic_Configuration(20);
-        DATA_3.All(20);
-    }
 
 }
