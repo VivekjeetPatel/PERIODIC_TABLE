@@ -17,12 +17,13 @@ public class PERIODIC_TABLE {
         }
         return a;
     }
+    public static double EN(int z){
+        System.out.println(ELEMENTS[z][5]);
+        return Double.valueOf(ELEMENTS[z][5]);
+    }
     public static void main(String[] args) {
-        DATA_3.Electronic_Configuration(20);
-        DATA_3.All(20);
-        Integer i = 12;
-        int x = i+22;
-        System.out.println(x);
+        System.out.println(PERIODIC_TABLE.EN(12));
+        
     }
 
 }
