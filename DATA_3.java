@@ -1,8 +1,21 @@
 package nineoct.PERIODIC_TABLE;
 
-public class DATA_3 {
-    static String ELEMENTS[][] = {
+class DATA_3 {
+    //2d array stores the informatin about periodic table
 
+    protected static String ELEMENTS[][] = {
+        
+//         ELEMENTS[0][0] = "atomic number";
+//         ELEMENTS[0][1] = "element name";
+//         ELEMENTS[0][2] = "atomic mass";
+//         ELEMENTS[0][3] = "melting point";
+//         ELEMENTS[0][4] = "boiling point";
+//         ELEMENTS[0][5] = "electronegativity";
+//         ELEMENTS[0][6] = "group";
+//         ELEMENTS[0][7] = "period";
+//         ELEMENTS[0][8] = "electronic configuration";
+//         ELEMENTS[0][9] = "metal or non-metal or metalloid";
+    
         {"atomic number","element name","atomic mass","melting point","boiling point","electronegativity","group","period","electronic configuration","metal or non-metal or metalloid"},
         {"1","hydrogen","1.0078","-259.14","-252.87","2.20","1","1","1s1","non-metal"},
         {"2","helium","4.0026","-272.20","-268.93","N/A","18","1","1s2","non-metal"},
@@ -124,8 +137,5 @@ public class DATA_3 {
         {"118","oganesson","(294)","N/A","N/A","N/A","18","7","[Rn] 5f14 6d10 7s2 7p6","non-metal"} 
 
     };
-
-    
-
 
 }
